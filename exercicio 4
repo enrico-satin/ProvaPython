@@ -1,0 +1,13 @@
+def exercicio_4():
+  i = 0
+  lista = input("Insira as médias dos alunos: ")
+  list = lista.split()
+  media_inferior = []
+  while i < len(list):
+    if int(list[i]) < 7:
+      media_inferior.append(list[i])
+    i += 1
+    if len(media_inferior) < 0.25 * len(list):
+      return "Professor Coxa"
+    else:
+     return "Professor Padrão"
