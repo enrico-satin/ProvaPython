@@ -1,0 +1,7 @@
+def exercicio2():
+  num_elementos = int(input("Insira o numero de elementos da lista: "))
+  lista = []
+
+  for num in range (num_elementos):
+    lista.append(input())
+  return lista
